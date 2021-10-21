@@ -1,0 +1,7 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  width: 76.875%;
+  margin: auto;
+
+}
