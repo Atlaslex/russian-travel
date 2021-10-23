@@ -4,5 +4,6 @@
   grid-template-rows: repeat(3, 1fr);
   max-width: 92.5%;
   margin: auto;
+  padding-top: 92px;
   gap: 16px;
 }
