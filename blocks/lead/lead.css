@@ -5,3 +5,21 @@
   margin: auto;
 
 }
+
+@media screen and (max-width : 1024px) {
+  body {
+  }
+    .lead {
+      width: 90.625%;
+    }
+    
+  }
+
+  @media screen and (max-width : 768px) {
+    body {
+    }
+      .lead {
+        width: 100%;
+      }
+      
+    }

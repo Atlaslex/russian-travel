@@ -4,5 +4,22 @@
   padding: 28px 48px 0px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+
 }
+
+@media screen and (max-width : 768px) {
+  body {
+  }
+    .header {
+      padding: 24px 28px 0px;
+    }
+    
+  }
+@media screen and (max-width : 320px) {
+  body {
+  }
+    .header {
+      padding: 16px 16px 0px;
+    }
+    
+  }

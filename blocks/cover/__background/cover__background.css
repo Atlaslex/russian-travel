@@ -1,4 +1,9 @@
 .cover__background {
   width: 100%;
+  opacity: 80%;
+}
+
+.cover__background:hover {
+  
   opacity: 30%;
 }
