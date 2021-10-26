@@ -3,4 +3,34 @@
     row-gap: 90px;
     margin: auto;
     padding: 92px 0;
+    max-width: 76.875%;
   }
+
+  @media screen and (max-width : 1024px) {
+    body {
+    }
+    .places {
+      max-width: 90.625%;
+      }
+      
+    }
+
+    @media screen and (max-width : 768px) {
+      body {
+      }
+      .places {
+       
+        max-width: 93.75%;
+        }
+        
+      }
+
+      @media screen and (max-width : 320px) {
+        body {
+        }
+        .places {
+         
+          max-width: 90%;
+          }
+          
+        }

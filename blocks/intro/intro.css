@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 690px;
+  height: auto;
   padding-left: 148px;
 }
 
@@ -13,3 +14,22 @@
     }
     
   }
+
+  @media screen and (max-width : 768px) {
+    body {
+    }
+      .intro {
+        width: 92%;
+        padding-left: 24px;
+      }
+      
+    }
+    @media screen and (max-width : 320px) {
+      body {
+      }
+        .intro {
+          width: 90%;
+        
+        }
+        
+      }
