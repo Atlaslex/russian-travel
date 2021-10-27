@@ -5,10 +5,10 @@
     align-items: 76px;
     margin: auto;
     text-align: left;
-    
+
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
     body {
     }
     .place__title {
@@ -18,8 +18,8 @@
         line-height: 46px;
         letter-spacing: 0em;
         text-align: left;
-        
-        
+
+
       }
-      
+
     }

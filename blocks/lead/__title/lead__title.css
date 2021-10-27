@@ -9,7 +9,7 @@
 
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   body {
   }
     .lead__title{
@@ -19,7 +19,7 @@
 
   }
 
-  @media screen and (max-width : 658px) {
+  @media screen and (max-width: 658px) {
     body {
     }
       .lead__title{

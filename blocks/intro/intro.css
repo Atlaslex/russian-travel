@@ -6,30 +6,30 @@
   padding-left: 148px;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 1024px) {
   body {
   }
     .intro {
       padding-left: 48px;
     }
-    
+
   }
 
-  @media screen and (max-width : 768px) {
+  @media screen and (max-width: 768px) {
     body {
     }
       .intro {
         width: 92%;
         padding-left: 24px;
       }
-      
+
     }
-    @media screen and (max-width : 320px) {
+    @media screen and (max-width: 320px) {
       body {
       }
         .intro {
           width: 90%;
-        
+
         }
-        
+
       }
