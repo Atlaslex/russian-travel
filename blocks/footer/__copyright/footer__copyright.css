@@ -1,8 +1,27 @@
 .footer__copyright {
     position: absolute;
     right: 48px;
+    bottom: 24px;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
 
 }
+
+@media screen and (max-width : 768px) {
+  body {
+  }
+    .footer__copyright {
+      right: 24px;
+    }
+
+  }
+
+  @media screen and (max-width : 710px) {
+    body {
+    }
+      .footer__copyright {
+        position: static;
+      }
+
+    }

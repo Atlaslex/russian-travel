@@ -1,7 +1,35 @@
 .cover {
-  width: 92.5%;
+  background-image: url(./__background/cover-trains.jpg);
+  width: 92.5vw;
+  max-width: 1184px;
+  height: 57.813vw;
+  max-height: 740px;
   margin: auto;
+  background-size: cover;
+  background-position: center;
   position: relative;
-  padding-bottom: 92px;
-  
 }
+
+.cover::before {
+  content: '';
+  background: #2A2C2F;
+  opacity: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cover:hover::before {
+  opacity: 80%;
+}
+
+@media screen and (max-width : 1024px) {
+  body {
+  }
+  .cover {
+    width: 100vw;
+    }
+
+  }
