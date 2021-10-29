@@ -7,8 +7,6 @@
   }
 
   @media screen and (max-width: 1024px) {
-    body {
-    }
     .places {
       max-width: 90.625%;
       }
@@ -16,20 +14,17 @@
     }
 
     @media screen and (max-width: 768px) {
-      body {
-      }
       .places {
-
+        row-gap: 72px;
         max-width: 93.75%;
+        padding: 88px 0 90px 0;
         }
 
       }
 
       @media screen and (max-width: 320px) {
-        body {
-        }
         .places {
-
+          padding: 64px 0 66px 0;
           max-width: 90%;
           }
 

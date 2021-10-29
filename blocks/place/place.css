@@ -9,8 +9,6 @@
 
 
   @media screen and (max-width: 1024px) {
-    body {
-    }
     .place {
 
       column-gap: 32px;
@@ -19,8 +17,6 @@
     }
 
     @media screen and (max-width: 768px) {
-      body {
-      }
       .place {
 
         column-gap: 28px;
@@ -28,11 +24,17 @@
 
       }
       @media screen and (max-width: 715px) {
-        body {
-        }
         .place {
           grid-template-columns: 1fr;
 
           }
 
         }
+
+        @media screen and (max-width: 320px) {
+          .place {
+            row-gap: 32px;
+
+            }
+
+          }

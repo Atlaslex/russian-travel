@@ -26,10 +26,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-  body {
-  }
   .cover {
-    width: 100%;
+    width: 100vw;
+    height: 62.5vw;
     }
 
   }
+
+  

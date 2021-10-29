@@ -8,8 +8,6 @@
 }
 
 @media screen and (max-width: 715px) {
-  body {
-  }
     .footer__copyright {
       align-self: flex-start;
       line-height: 14px;

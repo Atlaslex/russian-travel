@@ -10,8 +10,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    body {
-    }
     .place__title {
         font-size: 42px;
         font-style: normal;
@@ -19,8 +17,6 @@
         line-height: 46px;
         letter-spacing: 0em;
         text-align: left;
-
-
       }
 
     }
