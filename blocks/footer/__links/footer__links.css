@@ -1,27 +1,17 @@
 .footer__links {
   list-style-type:none;
   display: flex;
-  padding: 0 48px 24px;
   margin: auto;
+  padding: 0;
 
 }
-
-
-
-
-@media screen and (max-width: 768px) {
-  .footer__links {
-    padding: 0 24px 24px;
-    }
-
-  }
 
   @media screen and (max-width: 715px) {
       .footer__links {
         flex-direction: column;
-        height: 310px;
+        min-height: 310px;
         justify-content: space-between;
-        padding: 0 16px 24px;
+        padding: 0 0 24px;
       }
 
     }

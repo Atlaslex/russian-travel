@@ -13,8 +13,8 @@
     <header class="header">
       <div class="header__logo"></div>
       <div class="header__links">
-        <a class="header__lang-link" href="#">Ru</a>
-        <a class="header__lang-link">En</a>
+        <a class="header__lang-link header__lang-link_on" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
 
@@ -26,18 +26,20 @@
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
-        <h3 class="intro__title">Чего мы там не видели?</h3>
+        <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
           провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
           вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
           красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <p class="intro__list">Часовых поясов 11
-          Объектов природного наследия ЮНЕСКО 12
-          Объектов культурного наследия ЮНЕСКО 16
-          Природных заповедников 105
-          Аэропортов 241</p>
+        <ul class="intro__list">
+          <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+          <li>Природных заповедников <span class="intro__span-accent">105</span></li>
+          <li>Аэропортов <span class="intro__span-accent">241</span></li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img class="photo-grid__item" src="./blocks/photo-grid/photo-grid-train.jpg" alt="Вид из окна поезда">
@@ -52,7 +54,7 @@
         <img class="photo-grid__item" src="./blocks/photo-grid/photo-grid-kamchatka-2.jpg" alt="Вулкан Ходутка">
         <img class="photo-grid__item" src="./blocks/photo-grid/photo-grid-baikal-2.jpg" alt="Байкал">
         <img class="photo-grid__item" src="./blocks/photo-grid/photo-grid-ergaki.jpg" alt="Ердаки">
-     </section>
+      </section>
       <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
@@ -149,7 +151,7 @@
           </div>
         </div>
 
-    </section>
+      </section>
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала
@@ -159,19 +161,20 @@
         </a>
       </section>
 
-      <section class="footer">
+    </main>
+
+    <footer class="footer">
+      <nav class="footer__nav">
         <ul class="footer__links">
           <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
           <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
           <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
           <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
           <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-          <li class="footer__copyright">&copy; 2021. Алексей Клемешов</li>
         </ul>
-   </section>
-
-    </main>
-
+      </nav>
+      <small class="footer__copyright">&copy; 2021. Алексей Клемешов</small>
+    </footer>
   </div>
 </body>
 

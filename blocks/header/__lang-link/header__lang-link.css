@@ -1,10 +1,14 @@
 .header__lang-link {
   width: 30px;
-  height: 28px;
   font-size: 24px;
   line-height: 28px;
   color: white;
   margin-top: 18px;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
 .header__lang-link:nth-child(2) {
@@ -19,3 +23,5 @@
 
       }
     }
+
+    

@@ -30,9 +30,7 @@
     @media screen and (max-width: 320px) {
       .photo-grid {
         grid-template-columns: 1fr;
-
-        gap: 16px;
-        padding-top: 88px;
+        padding-top: 64px;
         }
 
       }
