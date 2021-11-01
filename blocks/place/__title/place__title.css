@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 76px;
-
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -19,7 +19,6 @@
 
     @media screen and (max-width: 320px) {
       .place__title {
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         }
